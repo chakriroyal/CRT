@@ -14,9 +14,9 @@ void div(int a,int b){
 }
 void main(){
   int ch,status=1,a,b;
-  printf("Enter your choice:\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n");
-  scanf("%d",&ch);
   while(status!=0){
+    printf("Enter your choice:\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n");
+    scanf("%d",&ch);
     switch(ch){
       case 1:
         printf("Enter two numbers:");
