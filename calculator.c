@@ -9,7 +9,8 @@ void mul(int a,int b){
   printf("%d\n",(a*b));
 }
 void div(int a,int b){
-  printf("%d\n",(a/b));
+  float result=a/b;
+  printf("%.2f\n",result);
 }
 void main(){
   int ch,status=1,a,b;
